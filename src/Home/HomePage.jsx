@@ -1,16 +1,17 @@
-import React from 'react'
-import Header from '../components/Header'
-import Slider from '../components/Slider'
-import Container from '../components/Container'
+import Hero from "../components/Hero";
+import Courses from "../components/Courses";
+import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
-const HomePage = () => {
+export default function App() {
   return (
-    <div>
-        <Header/>
-        <Slider/>
-        <Container/>
-    </div>
-  )
+    <>
+      <Navbar />
+      <Hero />
+      <Courses />
+      <FAQ />
+      <Footer />
+    </>
+  );
 }
-
-export default HomePage
